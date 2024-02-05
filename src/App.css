@@ -1,0 +1,226 @@
+ /* css for app.jsx
+/*  css for all contact + */
+
+ 
+
+.main{
+  display: flex;
+  height: 100vh;
+}
+
+
+
+
+.All-contact-ui{
+  text-align: center;
+  height: 506px;
+  width: 428px;
+  background-color: #090909;
+  border-radius: 8px;
+  margin-bottom: 35px;
+  margin-left: 5%;
+}
+
+.All-Contacts-btn {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #3498db;
+  width: 95%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 2%;
+  border-radius: 5px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.circle-plus-icon span{
+  margin-left: 5px;
+  size: 10px;
+  margin-top: 20px;
+}
+.Search-input {
+  padding: 8px;
+  width: 50%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #3498db; 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Contact-Form-btn {
+    flex-direction: column;
+  }
+
+  .All-Contacts-btn {
+    width: 100%;
+  }
+
+  .Search-input {
+    width: 100%;
+  }
+}
+
+
+
+/*  css for contact form or add contact */
+
+
+
+
+.contact-form-container {
+    display: flex;
+    margin: auto;
+    margin-left: 441px;
+    margin-top: -88px;
+    width: 1430px
+  }
+  
+  .Add-Contact-form{
+
+    display: flex;
+    margin-top: 10px;
+
+  }
+ 
+  .contact-form {
+
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  button {
+    margin-bottom: 10px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    
+  }
+  
+  .Reset-button {
+
+  background-color: black;
+  }
+
+  
+  @media (min-width: 600px) {
+    .contact-form-container {
+      flex-direction: row;
+    }
+  
+    .contact-form {
+      width: 300px;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .button-group {
+      flex-direction: row;
+    }
+  
+    .submit-button{
+    background-color: blue;
+      width: auto;
+    
+  }
+  
+  .contact-list {
+    width: 100%;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  span {
+    margin-bottom: 8px;
+  }
+  
+  .contact-list button {
+    margin-top: 8px;
+    width: 100%;
+  }
+  
+  
+  .Add-Contact-form{
+    display: flex;
+
+}
+
+.cross-icon-RxCross1{
+    float: left;
+}}
+
+
+
+.cross-icon-button{
+  margin-top: -21px;
+  margin-left: 131px;
+
+}
+
+.text-heading h2{
+
+  margin-top: -22px;
+  margin-left: -10px;
+  color: grey;
+  font-size: 18px;
+
+}
+
+.horizontal-line{
+  height: 1px;
+  width: auto;
+  margin-top: -16px;
+  padding-bottom: 13px;
+}
+
+
+
+
+
+
+
